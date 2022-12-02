@@ -1,0 +1,31 @@
+.btn-modern{
+    background-color: pink;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn-modern:hover {
+    background-color: rgb(246, 137, 155);
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0px 1px 0px rgb(180, 127, 136);
+    transition: 0.4s;
+}
+
+
+/*Crea un nuevo fichero CSS e impórtalo en el documento HTML principal
+
+En el body crea un botón con el atributo class "btn-modern"
+
+Implementa las líneas necesarias en el CSS para que cuando el ratón pase por encima del botón ocurra lo siguiente (hover):
+
+El botón se traslade -5px en el eje de las Y
+
+Se añada una sombra
+
+El color de fondo del botón cambie
+
+El color del texto cambie
+
+Todo esto con una transición de 0.4s*/
